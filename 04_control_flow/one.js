@@ -31,8 +31,15 @@ const temperature = 41;
 
 const userLoggedIn = true;
 const debitCard = true;
+const isLoggedInFromEmail= true;
+const isLoggedInFromGoogle = false;
 
 if (userLoggedIn && debitCard) {
     console.log("allow to buy courses");
+    
+}
+
+if (isLoggedInFromEmail || isLoggedInFromGoogle) {
+    console.log("user logged in");
     
 }
